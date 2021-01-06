@@ -1,0 +1,11 @@
+<div class="row p-5 ">
+
+  <div *ngFor="let item of array" class="col-md-3 block">
+    <img class="card-img-top " [src]="item.img" alt="Card image cap" width="500" height="200">
+    <div class="card-body ">
+      <h6 class="card-subtitle mb-2 text-muted ">{{item.name}}</h6>
+      <h5 class="card-text ">Price : {{item.price}} </h5>
+      <a class="btn btn-primary " (click)="addProductToCart(item)">Buy</a>
+    </div>
+  </div>
+</div>

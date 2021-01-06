@@ -1,0 +1,11 @@
+.block {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 44px;
+}
+
+img {
+    padding: 5px;
+    border-radius: 5px;
+}
